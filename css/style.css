@@ -1,0 +1,47 @@
+:root {
+  --bg-blue: #5A92AF;
+  --container-blue: #86C1D4;
+  --box-blue: #9CD9DE;
+  --fizz-buzz: #EE688B;
+  --buzz: #F8DC88;
+  --fizz: #68DE93;
+
+}
+
+body{
+  background-color: var(--bg-blue);
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+.box-container-lf{
+  background-color: var(--container-blue);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+}
+
+.fizz{
+  background-color: var(--fizz);
+}
+
+.buzz{
+  background-color: var(--buzz);
+}
+
+.fizz-buz{
+  background-color: var(--fizz-buzz);
+}
+
+.fizz, 
+.fizz-buz,
+.buzz {
+  color: black;
+}
